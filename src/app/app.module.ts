@@ -13,6 +13,7 @@ import { HighlightsComponent } from './components/highlights/highlights.componen
 import { ConnexionsComponent } from './components/connexions/connexions.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { LoginComponent } from './components/login/login.component';
+import { SponsersComponent } from './components/sponsers/sponsers.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { LoginComponent } from './components/login/login.component';
     HighlightsComponent,
     ConnexionsComponent,
     ContactUsComponent,
-    LoginComponent
+    LoginComponent,
+    SponsersComponent
   ],
   imports: [
     BrowserModule,

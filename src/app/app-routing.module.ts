@@ -7,6 +7,8 @@ import { SpeakersComponent } from './components/speakers/speakers.component';
 import { HighlightsComponent } from './components/highlights/highlights.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { LoginComponent } from './components/login/login.component';
+import { ConnexionsComponent } from './components/connexions/connexions.component';
+import { SponsersComponent } from './components/sponsers/sponsers.component';
 
 
 const routes: Routes = [
@@ -18,6 +20,8 @@ const routes: Routes = [
   { path: 'contact-us', component: ContactUsComponent },
   { path: 'login', component: LoginComponent },
 
+  { path: 'connexions', component: ConnexionsComponent },
+  { path: 'sponsers', component: SponsersComponent },
 ];
 
 @NgModule({
