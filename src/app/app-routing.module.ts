@@ -8,9 +8,11 @@ import { HighlightsComponent } from './components/highlights/highlights.componen
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { ConnexionsComponent } from './components/connexions/connexions.component';
 import { SponsersComponent } from './components/sponsers/sponsers.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 const routes: Routes = [
+  { path: '', component: HomeComponent },
   { path: 'about-us', component: AboutUsComponent },
   { path: 'events', component: EventsComponent },
   { path: 'workshops', component: WorkshopsComponent },
