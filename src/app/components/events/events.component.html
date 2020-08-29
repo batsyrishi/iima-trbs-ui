@@ -1,1 +1,132 @@
-<p>events works!</p>
+<div class="header">
+    <h1>Events</h1>
+  </div>   
+
+<div class="container" style="padding-top: 60px;">
+    <div class="card-deck" style="padding-bottom: 25px ;">
+        <div class="card text-center" style="border-radius: 15px;">
+            <img class="card-img-top card-design"src="assets/img/ba.png" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Permits</h4>
+                <p class="card-text">
+                    Apply for parking permit
+                    <br> View existing permit requests
+                    <br> Activate Visitor permits
+                    <br>
+                </p>
+                <!-- <button class="btn btn-primary mr-4" href="#">V</button> -->
+                <button class="btn btn-outline-danger" (click)="openScrollableContent(longContent)">View Details</button>
+            </div>
+            <!-- <div class="card-footer">
+                Link
+            </div> -->
+        </div>
+
+        <div class="card text-center">
+            <img class="card-img-top card-design" src="assets/img/ba.png" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Permits</h4>
+                <p class="card-text">
+                    <!-- Apply for parking permit
+                    <br> View existing permit requests
+                    <br> Activate Visitor permits
+                    <br> -->
+                </p>
+                <a href="#" class="btn btn-outline-danger">Go somewhere</a>
+            </div>
+            <!-- <div class="card-footer">
+                Link
+            </div> -->
+        </div>
+
+        <div class="card text-center">
+            <img class="card-img-top card-design" src="assets/img/ba.png" alt="Card image cap">
+            <div class="card-block">
+                <h4 class="card-title">Permits</h4>
+                <p class="card-text">
+                    <!-- Apply for parking permit
+                    <br> View existing permit requests
+                    <br> Activate Visitor permits
+                    <br> -->
+                </p>
+                <a href="#" class="btn btn-outline-danger">Go somewhere</a>
+            </div>
+            <!-- <div class="card-footer">
+                Link
+            </div> -->
+        </div>
+    </div>
+
+    <ng-template #longContent let-modal>
+        <div class="modal-header">
+          <h4 class="modal-title">Modal title</h4>
+          <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+          <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+          <p>Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Enroll Now</button>
+          <!-- <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button> -->
+        </div>
+      </ng-template>
+    <!-- <div class="card-deck mt-4">
+        <div class="card text-center">
+            <div class="card-block">
+                <h4 class="card-title">Funding Options</h4>
+                <p class="card-text">
+                    Add credit/debit card
+                    <br> Top up Account
+                    <br> Manage cards
+                </p>
+            </div>
+            <div class="card-footer">
+                Link
+            </div>
+        </div>
+
+        <div class="card text-center">
+            <div class="card-block">
+                <h4 class="card-title">Account History</h4>
+                <p class="card-text">
+                    View all financial transactions on my account
+                </p>
+            </div>
+            <div class="card-footer">
+                Link
+            </div>
+        </div>
+        <div class="card text-center">
+            <div class="card-block">
+                <h4 class="card-title">User Settings</h4>
+                <p class="card-text">
+                    Edit personal details
+                    <br> Change top-up settings
+                    <br> Change password
+                </p>
+            </div>
+            <div class="card-footer">
+                Link
+            </div>
+        </div>
+    </div> -->
+</div>
