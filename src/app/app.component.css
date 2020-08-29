@@ -1,34 +1,14 @@
 .backgroud-nav{
     background-color: #EB4646;
 }
-.ts-facts{
-    padding: 40px 5px; 
-}
-.facts-wrapper{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between !important;
-}
-.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    width: 15%;
-    outline: none;
-    border: none;
-}
-.ts-facts-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
-.ts-facts-content{
-    text-align: center;
-    height: 100px;
-    padding: 20px 0;
-}
-.ts-facts-img>img{
-    width: 40px;
+.x-footer-social-icons.facebook {
+    width: 32px;
+    height: 32px;
+    display: block;
+    text-indent: -9999px;
+    background-image: assets/img/icons/fb.png;
+    background-repeat: no-repeat;
+    }
+.x-footer-social-icons.facebook:hover {
+    background-image: assets/img/icons/fb.png;
 }
