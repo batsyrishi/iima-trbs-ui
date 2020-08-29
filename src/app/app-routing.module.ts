@@ -6,6 +6,7 @@ import { WorkshopsComponent } from './components/workshops/workshops.component';
 import { SpeakersComponent } from './components/speakers/speakers.component';
 import { HighlightsComponent } from './components/highlights/highlights.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { LoginComponent } from './components/login/login.component';
 import { ConnexionsComponent } from './components/connexions/connexions.component';
 import { SponsersComponent } from './components/sponsers/sponsers.component';
 import { HomeComponent } from './components/home/home.component';
@@ -19,6 +20,8 @@ const routes: Routes = [
   { path: 'speakers', component: SpeakersComponent },
   { path: 'highlights', component: HighlightsComponent },
   { path: 'contact-us', component: ContactUsComponent },
+  { path: 'login', component: LoginComponent },
+
   { path: 'connexions', component: ConnexionsComponent },
   { path: 'sponsers', component: SponsersComponent },
 ];
